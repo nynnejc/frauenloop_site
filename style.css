@@ -25,11 +25,11 @@ body {
 }
 
 ul.social-icons { 
-  margin-top: 10px;
+  
   
   position: absolute;
-  top: 20px;
-  right: 16px;
+  top: 0.5px;
+  right: 0px;
   font-size: 17px
 
 }
@@ -91,3 +91,42 @@ ul.social-icons {
   background-color: #ff0000;
 }
 
+.pull-right {
+  float: right !important;
+}
+
+.navbar {
+  
+  font-size: 15px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background: rgb(0, 0, 0);
+  background: black;
+  height: 130px;
+  border-style: none;
+  
+}
+
+.navbar-inverse .navbar-nav>li>a {
+  color:#fff;
+  font-size: 20px
+}
+.nav {
+
+  position: fixed;
+  left: 400px;
+  top: 70px;
+}
+
+.nav li a {
+  color:#fff;
+  position: relative;
+  display: block;
+  padding: 5px 4px;
+}
+
+span {
+  color: red;
+}
