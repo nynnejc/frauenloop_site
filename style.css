@@ -3,7 +3,7 @@
 
 
 body {
-  background: url(images/FL+ROR_190716_Marsden_41.jpg) no-repeat center center fixed; 
+  background: url(images/background_1.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -25,10 +25,8 @@ body {
 }
 
 ul.social-icons { 
-  
-  
-  position: absolute;
-  top: 0.5px;
+  position: fixed;
+  top: 130px;
   right: 0px;
   font-size: 17px
 
@@ -96,7 +94,7 @@ ul.social-icons {
 }
 
 .navbar {
-  
+
   font-size: 15px;
   list-style-type: none;
   margin: 0;
@@ -104,6 +102,7 @@ ul.social-icons {
   overflow: hidden;
   background: rgb(0, 0, 0);
   background: black;
+  height: 100%;
   height: 130px;
   border-style: none;
   
@@ -113,11 +112,16 @@ ul.social-icons {
   color:#fff;
   font-size: 20px
 }
+
 .nav {
 
   position: fixed;
   left: 400px;
   top: 70px;
+  width: 100%;
+}
+@media screen and (max-width: 767px){
+  .navbar-inverse{bottom: 0; top:auto;}
 }
 
 .nav li a {
@@ -127,6 +131,38 @@ ul.social-icons {
   padding: 5px 4px;
 }
 
-span {
-  color: red;
+.navbar-brand>img {
+
+ height: 125px;
+ width: 250px;
+ margin: 0 auto;
 }
+
+.span {
+  color: #f50057;
+  margin-right: 10px;
+}
+
+.navbar-toggle {
+  background-color: #f50057;
+  -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  transition: .5s;
+}
+
+/*.bg-2 {
+
+  position: fixed;
+  width: 100%;
+  height: 80px;
+  bottom: 0px;
+  background-color: #000000;
+ }
+
+
+ strong {
+  color: #fff;
+ }*/
+
