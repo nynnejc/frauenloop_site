@@ -1,13 +1,14 @@
-@import url(http://fonts.googleapis.com/css?family=Lato);
+@import url(http//fonts.googleapis.com/css?family=Lato);
 @import url(http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css);
 
 
 body {
-  background: url(images/background_1.jpg) no-repeat center center fixed; 
+  /*background: url(images/background_1.jpg) no-repeat center center fixed;*/
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  background-color: #000;
 }
 /*social-buttons*/
 .footer-social-icons {
