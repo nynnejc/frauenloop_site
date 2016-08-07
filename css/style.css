@@ -116,7 +116,7 @@ ul.social-icons {
 }
 
 
-@media only screen and (min-width : 992px) {
+@media only screen and (min-width : 747px) {
   .nav {
     background-color: #000;
     position: fixed;
@@ -171,7 +171,7 @@ strong {
   text-align: justify;
 }
 
- 
+
 .carousel-wrapper{
   min-width: 300px;
   width: calc((100vh - 130px - 20px) * 1.5);
@@ -191,6 +191,27 @@ img {
   max-width: 100%;
 }
 
-.contact {
-  text-align: center;
+.thumbnail {
+  position: relative;
 }
+
+.caption {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  background: rgb(0, 0, 0);
+  background: rgba(255, 255, 255, 0.6);
+}
+
+.btn-primary {
+  margin-top: 50px;
+    color: #fff;
+    background-color: #f50057;
+    border-color:#f50057;
+  }
+
+.h2Contact {
+  margin-top: 80px;
+}  
