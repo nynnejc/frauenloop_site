@@ -1,7 +1,10 @@
 @import url(http//fonts.googleapis.com/css?family=Lato);
 @import url(http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css);
 
-
+body {
+  padding-top: 130px;
+  background-color: #000;
+}
 
 /*social-buttons*/
 .footer-social-icons {
@@ -89,10 +92,13 @@ ul.social-icons {
   overflow: hidden;
   background: rgb(0, 0, 0);
   background: black;
-  height: 100%;
+  position: fixed;
+  top: 0;
+  width: 100%;
   height: 130px;
   border-style: none;
   z-index: 200;
+  
 }
 
 .navbar-inverse .navbar-nav>li>a {
@@ -101,15 +107,27 @@ ul.social-icons {
 }
 
 .nav {
+  background-color: #000;
   position: fixed;
-  left: 400px;
+  right: 20px;
   top: 70px;
   width: 100%;
+  z-index: 200;
 }
 
-@media screen and (max-width: 767px){
-  .navbar-inverse{bottom: 0; top:auto;}
+
+@media only screen and (min-width : 992px) {
+  .nav {
+    background-color: #000;
+    position: fixed;
+    left: 400px;
+    right: auto;
+    top: 70px;
+    width: 100%;
+    z-index: 200;
+  }
 }
+
 .nav li a {
   color:#fff;
   position: relative;
@@ -148,26 +166,31 @@ strong {
   color: #fff;
 }
 
-p {
+.quote {
   font-size: 25px;
-  position: fixed;
-  bottom: 0px;
-  right: 100px;
   text-align: justify;
 }
 
-@media screen and (max-width: 767px){
-  p{position: fixed;bottom: 0px;right: 0px;text-align: justify;  font-size: 16px;}
+ 
+.carousel-wrapper{
+  min-width: 300px;
+  width: calc((100vh - 130px - 20px) * 1.5);
+  max-width: 100%;
+  margin: 0 auto;
 
-  .img {
-    max-width: 100%;
-    height: 90px;
-    width: 200px;
-    margin: 0 auto;
-    position: fixed;
-    bottom: 100px;
+}
 
-  }
-  @media screen and (max-width: 767px){
-    .img{max-width: 100%;height: 45px;width: 100px;margin: 10px 10px;position: fixed;bottom: 0px;}
+.section {
+  padding-top: 130px;
+  padding-bottom: 130px;
+  min-height: 100vh;
 
+}
+
+img {
+  max-width: 100%;
+}
+
+.contact {
+  text-align: center;
+}
