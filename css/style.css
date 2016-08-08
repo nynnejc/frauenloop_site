@@ -156,6 +156,7 @@ ul.social-icons {
   -webkit-transition:.5s;
   transition: .5s;
 }
+
 /*footer for every page*/
 .bg-2 {
   position: fixed;
@@ -163,10 +164,6 @@ ul.social-icons {
   height: 100px;
   bottom: 0px;
   background-color: #000000;
-}
-
-strong {
-  color: #fff;
 }
 
 .quote {
@@ -184,15 +181,11 @@ strong {
 }
 
 .section {
-  padding-top: 130px;
-  padding-bottom: 130px;
+  padding-top: 50px;
   min-height: 100vh;
 
 }
 
-img {
-  max-width: 100%;
-}
 
 .header-circle {
   max-width: 100%;
@@ -214,10 +207,9 @@ img {
 }
 
 .btn-primary {
-  margin-top: 50px;
-    color: #fff;
-    background-color: #f50057;
-    border-color:#f50057;
+  color: #fff;
+  background-color: #f50057;
+  border-color:#f50057;
   }
 
 .h2Contact {
@@ -231,6 +223,7 @@ img {
   position: static;
   display: inline-block;
 }
+
 .navbar {
   font-size: 10px;
   list-style-type: none;
@@ -247,10 +240,12 @@ img {
   z-index: 200;
   
 }
+
 body {
   padding-top: 37px;
   background-color: #000;
 }
+
 .navbar-brand>img {
   height: 90px;
   width: 150px;
@@ -258,4 +253,31 @@ body {
   top: 0px;
   left: 0px;
 }
+.quote {
+    font-size: 12px;
+    text-align: justify;
+}
+.header-circle {
+  max-width: 100%;
+  height: 50px;
+}
+.section {
+  padding-top: 10px;
+  min-height: 50vh;
+
+}
+.h2Contact {
+  margin-top: 40px;
+  font-size: 12px;
+}  
+.h2Tel {
+  margin-top: 10px;
+  font-size: 12px;
+
+}
+
+}
+
+img {
+  margin: 0 auto;
 }
