@@ -5,7 +5,6 @@ body {
   padding-top: 130px;
   background-color: #000;
 }
-
 /*social-buttons*/
 .footer-social-icons {
   width: 350px;
@@ -15,29 +14,23 @@ body {
   right: 10px;
   z-index: 200;
 }
-
 .social-icon {
   color: #fff;
 }
-
 ul.social-icons { 
   position: fixed;
   top: 130px;
   right: 0px;
   font-size: 17px
 }
-
 .social-icons li {
  vertical-align: top;
  list-style: none;
-
 }
-
 .social-icons a {
   color: #fff; 
   text-decoration: none;
 }
-
 .fa-facebook {
   padding:10px 14px 6px 14px;
   -o-transition:.5s;
@@ -47,11 +40,9 @@ ul.social-icons {
   transition: .5s;
   background: #f50057 ;
 }
-
 .fa-facebook:hover {
   background-color: #3d5b99;
 }
-
 .fa-instagram {
   padding: 10px 10px 10px 11px;
   -o-transition:.5s;
@@ -61,11 +52,9 @@ ul.social-icons {
   transition: .5s;
   background: #f50057;
 }
-
 .fa-instagram:hover {
   background-color: #b30086;
 }
-
 .fa-youtube {
   padding:10px 10px 7px 11px;
   -o-transition:.5s;
@@ -75,11 +64,9 @@ ul.social-icons {
   transition: .5s;
   background: #f50057;
 }
-
 .fa-youtube:hover {
   background-color: #ff0000;
 }
-
 .pull-right {
   float: right !important;
 }
@@ -87,25 +74,27 @@ ul.social-icons {
 .navbar {
   font-size: 15px;
   list-style-type: none;
-  margin: 0;
+  margin-bottom: 0 !important;
   padding: 0;
   overflow: hidden;
   background: rgb(0, 0, 0);
-  background: black;
+  background: rgba(0, 0, 0, 0.6);
   position: fixed;
   top: 0;
   width: 100%;
   height: 130px;
   border-style: none;
   z-index: 200;
-  
 }
-
-.navbar-inverse .navbar-nav>li>a {
+.navbar-inverse .navbar-nav li a {
   color:#fff;
   font-size: 20px
 }
-
+.navbar-inverse .navbar-nav>li>a:hover:not(.active) {
+  color:  #f50057;
+  -webkit-transition-duration: 0.8s; 
+  transition-duration: 0.8s;
+}
 }
 .nav {
   font-size: 5px;
@@ -117,11 +106,8 @@ ul.social-icons {
   width: 100%;
   z-index: 200;
 }
-
-
 @media only screen and (min-width : 747px) {
   .nav {
-    background-color: #000;
     position: fixed;
     left: 400px;
     right: auto;
@@ -130,7 +116,6 @@ ul.social-icons {
     z-index: 200;
   }
 }
-
 .nav li a {
   color:#fff;
   position: relative;
@@ -142,12 +127,10 @@ ul.social-icons {
   width: 250px;
   margin: 0 auto;
 }
-
 .span {
  color: #f50057;
  margin-right: 10px;
 }
-
 .navbar-toggle {
   background-color: #f50057;
   -o-transition:.5s;
@@ -165,37 +148,35 @@ ul.social-icons {
   bottom: 0px;
   background-color: #000000;
 }
-
 .quote {
-  font-size: 25px;
+  font-size: 20px;
   text-align: justify;
+  padding-bottom: 5px;
 }
-
-
 .carousel-wrapper{
   min-width: 300px;
   width: calc((100vh - 130px - 20px) * 1.5);
   max-width: 100%;
   margin: 0 auto;
-
 }
-
 .section {
-  padding-top: 50px;
-  min-height: 100vh;
-
+ padding-top: 130px;
+ min-height: 100vh;
 }
-
-
+.section6 {
+ padding-top: 70px;
+ min-height: 100vh;
+}
 .header-circle {
   max-width: 100%;
-  height: 90px;
+  height: 65px;
+  position: absolute;
+  left: 200px;
+  top: 0px;
 }
-
 .thumbnail {
   position: relative;
 }
-
 .caption {
   position: absolute;
   top: 0;
@@ -205,66 +186,63 @@ ul.social-icons {
   background: rgb(0, 0, 0);
   background: rgba(255, 255, 255, 0.6);
 }
-
 .btn-primary {
   color: #fff;
   background-color: #f50057;
   border-color:#f50057;
-  }
-
+}
 .h2Contact {
   margin-top: 80px;
 }  
-
 @media only screen and (max-width : 768px) {
   .navbar-inverse .navbar-nav>li>a {
-  color:#fff;
-  font-size: 10px;
-  position: static;
-  display: inline-block;
-}
-
-.navbar {
-  font-size: 10px;
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background: rgb(0, 0, 0);
-  background: black;
-  position: static;
-  top: 0 auto;
-  width: 100%;
-  height: 100%;
-  border-style: none;
-  z-index: 200;
-  
-}
-
-body {
-  padding-top: 37px;
-  background-color: #000;
-}
-
-.navbar-brand>img {
-  height: 90px;
+    color:#fff;
+    font-size: 10px;
+    position: static;
+    display: inline-block;
+  }
+  .navbar {
+    font-size: 10px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: rgb(0, 0, 0);
+    background: black;
+    position: static;
+    top: 0 auto;
+    width: 100%;
+    height: 100%;
+    border-style: none;
+    z-index: 200;
+  }
+  body {
+   padding-top: 37px;
+   background-color: #000;
+ }
+ .navbar-brand>img {
+  height: 80px;
   width: 150px;
   position: absolute;
   top: 0px;
   left: 0px;
 }
 .quote {
-    font-size: 12px;
-    text-align: justify;
+  font-size: 20px;
+  text-align: center;
+  padding-top: 73px;
+  padding-bottom: 5px;
 }
 .header-circle {
   max-width: 100%;
-  height: 50px;
+  height: 80px;
+  position: absolute;
+  left: 23%;
+  top: 50%;
 }
 .section {
   padding-top: 60px;
   min-height: 50vh;
-
 }
 .h2Contact {
   margin-top: 40px;
@@ -273,11 +251,31 @@ body {
 .h2Tel {
   margin-top: 10px;
   font-size: 12px;
-
 }
-
 }
-
 img {
   margin: 0 auto;
 }
+@media only screen and (max-width : 1000px) {
+   body {
+   padding-top: 37px;
+   background-color: #000;
+ }
+.quote {
+  font-size: 20px;
+  text-align: center;
+  padding-top: 73px;
+  padding-bottom: 5px;
+}
+.header-circle {
+  max-width: 100%;
+  height: 80px;
+  position: absolute;
+  left: 25%;
+  top: 50%;
+}
+.section {
+  padding-top: 130px;
+  min-height: 50vh;
+}
+  }
