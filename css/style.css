@@ -224,6 +224,10 @@ ul.social-icons {
   padding-top: 10px
   padding-bottom: 20px;
 } 
+img {
+  margin: 0 auto;
+  display: block;
+}
 @media only screen and (max-width : 950px) {
   .navbar-inverse .navbar-nav>li>a {
     color:#fff;
@@ -317,8 +321,4 @@ ul.social-icons {
   margin: 0 auto;
   padding-top: 0;
 }
-}
-img {
-  margin: 0 auto;
-  display: block;
 }
