@@ -346,3 +346,11 @@ img {
     cursor: pointer;
     z-index: 250;
 }
+
+#contact-backrgound-img {
+  z-index: 5;
+}
+
+#contact-text {
+  z-index: 200;
+}
