@@ -299,11 +299,21 @@ img {
   z-index: 250;
 }
 
-#contact-backrgound-img {
-  z-index: 5;
+.contact-background-img {
+  position: relative;
+  left: 50;
 }
 
-#contact-text {
-  z-index: 200;
+.thumbnail {
+  position: relative;
 }
+
+.contact-text {
+  position: absolute;
+  top: 80px;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+
 
