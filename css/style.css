@@ -84,11 +84,12 @@ ul.social-icons {
   z-index: 200;
 }
 .navbar-inverse .navbar-nav li a {
+  font-family: 'Josefin Sans', sans-serif;
   color:#fff;
   font-size: 20px
 }
 .navbar-inverse .navbar-nav>li>a:hover:not(.active) {
-  color:  #fb0347;
+  color:  #fd9ab5;
   -webkit-transition-duration: 0.8s; 
   transition-duration: 0.8s;
 }
@@ -143,6 +144,7 @@ ul.social-icons {
 
 /*footer for every page*/
 .quote {
+  font-family: 'Josefin Sans', sans-serif;
   color:#999999;
   font-size: 20px;
   text-align: center;
@@ -162,11 +164,13 @@ ul.social-icons {
   margin:0 auto;
   padding-top: 5px;
   cursor: pointer;
+  text-decoration: none;
 }
 .quotepink:hover:not(.active) {
   color:  #fff;
   -webkit-transition-duration: 0.8s; 
   transition-duration: 0.8s;
+  text-decoration: none;
   }
 .carousel-wrapper{
   min-width: 300px;
@@ -309,6 +313,7 @@ img {
 }
 
 .contact-text {
+  font-family: 'Josefin Sans', sans-serif;
   position: absolute;
   top: 80px;
   width: 100%;
