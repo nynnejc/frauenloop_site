@@ -357,6 +357,13 @@ img {
   z-index: 250;
 }
 
+.contact-button:hover {
+  text-decoration: none;
+  color:  #000000;
+  -webkit-transition-duration: 0.8s; 
+  transition-duration: 0.8s;
+}
+
 .contact-background-img {
   position: relative;
   left: 50;
