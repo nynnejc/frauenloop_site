@@ -149,21 +149,21 @@ ul.social-icons {
 .quote {
   font-family: 'Open Sans', sans-serif;
   color:#999999;
-  font-size: 20px;
+  font-size: 18px;
   text-align: center;
   margin:0 auto;
-  padding-bottom: 5px;
+  padding-bottom: 5px; 
   margin-right: 3%;
 }
 .quoteWhite {
   color:#fff;
   font-style: none;
-  font-size: 20px;
+  font-size: 18px;
 }
 .quotepink {
   font-family: 'Open Sans', sans-serif;
   color:#fb0347;
-  font-size: 20px;
+  font-size: 18px;
   text-align: center;
   margin:0 auto;
   padding-top: 5px;
