@@ -116,6 +116,7 @@ ul.social-icons {
     z-index: 200;
   }
 }
+
 .nav li a {
   color:#fff;
   position: relative;
@@ -366,12 +367,27 @@ img {
 }
 
 .contact-text {
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   position: absolute;
-  top: 80px;
+  font-size: 20px;
+  color: #000000;
+  top: 20%;
   width: 100%;
   height: 100%;
   text-align: center;
+}
+
+.contact-text-bold {
+  font-style: none;
+  font-size: 30px;
+  font-weight: 900;
+}
+
+@media only screen and (max-width: 500px) { /* screen size until 500px */
+    body .contact-text .contact-text-bold {
+        font-size: 15px;
+            top: 10px;
+    }
 }
 
 
