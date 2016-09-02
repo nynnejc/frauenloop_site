@@ -102,9 +102,13 @@ ul.social-icons {
   background-color: #000;
   position: fixed;
   right: 20px;
-  top: 0;
+  top: gin0;
   width: 100%;
   z-index: 200;
+}
+.row {
+  margin-left: 0;
+  margin-right: 0;
 }
 @media only screen and (min-width : 747px) {
   .nav {
