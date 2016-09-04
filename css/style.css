@@ -102,7 +102,7 @@ ul.social-icons {
   background-color: #000;
   position: fixed;
   right: 20px;
-  top: gin0;
+  top: 0;
   width: 100%;
   z-index: 200;
 }
@@ -115,7 +115,7 @@ ul.social-icons {
     position: fixed;
     left: 30%;
     right: auto;
-    top: 10%;
+    top: 75px;
     width: 100%;
     z-index: 200;
   }
