@@ -179,7 +179,7 @@ ul.social-icons {
   -webkit-transition-duration: 0.8s; 
   transition-duration: 0.8s;
   text-decoration: none;
-  }
+  }  
 .carousel-wrapper{
   min-width: 300px;
   width: calc((100vh - 130px - 20px) * 1.5);
@@ -415,6 +415,4 @@ img {
   font-size: 30px;
   font-weight: 900;
 }
-
-
 
