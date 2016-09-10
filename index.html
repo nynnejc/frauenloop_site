@@ -33,7 +33,9 @@
               <li data-menuanchor="page3"><a href="#page3">HOW </a></li>
               <li data-menuanchor="page4"><a href="#page4">WHERE </a></li>
               <li data-menuanchor="page5"><a href="#page5">WHO </a></li>
-              <li data-menuanchor="page6"><a href="#page6">CONTACT</a></li>
+              <li data-menuanchor="page6"><a href="#page6">LISTEN</a></li>
+              <li data-menuanchor="page7"><a href="#page7">CONTACT</a></li>
+              <li data-menuanchor="page8"><a href="#page8">LEGALL</a></li>
             </ul>
           </div>
         </div>
@@ -133,7 +135,7 @@
   <div class="container">
     <div><img class="header-circle" src="images/circle_logos/WHERE_CIRCLE.jpg"></div>
       <div class="row">
-        <div class="col-lg-12 col-md-12"><p class="quote">We <span class="quoteWhite">screen, develop & place</span> candidates by working<br class="visible-lg visible-md"> with NGOs, government & private sector partners</p></div>
+        <div class="col-lg-12 col-md-12"><p class="quote">We <span class="quoteWhite">screen, develop &<br class="visible-sm visible-xs"> place</span> candidates by working<br class="visible-lg visible-md"> with NGOs, government & private sector partners</p></div>
       </div>
     <img src="images/content_images/WHERE_IMAGE.jpg" class="img-responsive" width="540" height="532.06">
   </div>
@@ -163,6 +165,36 @@
 
 <div class="section" id="page6">
   <div class="container">
+    <div><img class="header-circle" src="images/circle_logos/LISTEN_CIRCLE.jpg"></div>
+      <div class="row">
+      <div class="clo-lg-12 col-sm-12 text-center"><p class="quote">Some text Some text</p></div>
+        <div class="col-lg-12 col-md-12 text-center"><audio id="yourAudio" preload='none'>
+          <source src='pages/music.mp3' type='audio/mpeg' />
+        </audio>
+        <a class="quotepink">LISTEN <span id="audioControl" class="glyphicon glyphicon-play"></span></a>
+        </div>
+      </div>
+  </div>
+        <div class="row">
+      <div class="clo-lg-12 col-sm-12 text-center"><p class="quote">Some text Some text</p></div>
+        <div class="col-lg-12 col-md-12 text-center"><audio id="yourAudio" preload='none'>
+          <source src='pages/music.mp3' type='audio/mpeg' />
+        </audio>
+        <a class="quotepink">LISTEN <span id="audioControl" class="glyphicon glyphicon-play"></span></a>
+        </div>
+      </div>
+  </div>
+        <div class="row">
+      <div class="clo-lg-12 col-sm-12 text-center"><p class="quote">Some text Some text</p></div>
+        <div class="col-lg-12 col-md-12 text-center"><audio id="yourAudio" preload='none'>
+          <source src='pages/music.mp3' type='audio/mpeg' />
+        </audio>
+        <a class="quotepink">LISTEN <span id="audioControl" class="glyphicon glyphicon-play"></span></a>
+        </div>
+      </div>
+  </div>
+<div class="section" id="page7">
+  <div class="container">
     <div class="row">
     <div class="col-lg-12 col-md-12 col-sm-12 center-block">
       <div class="contact-background-img text-center">
@@ -191,12 +223,22 @@
 </div>
 </div>
 
+<div class="section" id="page8">
+  <div class="container">
+    <div><img class="header-circle" src="images/circle_logos/WHY_CIRCLE.jpg"></div>
+      <div class="row">
+        <div class="col-lg-12 col-md-12"><p class="quote">The typical college graduate will<span class="quoteWhite"> change jobs many times. </span><br class="visible-lg visible-md">Sometimes it's a choice - but <span class="quoteWhite">for many women it isn't.</span></p></div>
+      </div>
+  </div>
+  <img src="images/content_images/WHY_IMAGE.jpg" class="img-responsive" width="650" height="532.06">
+   <div><p class="quotepink text-center"><a class="quotepink" href="pages/listen.html"> LISTEN <span class="glyphicon glyphicon-headphones"></a></span></p></div>
+</div>
+
 <footer>
 </footer>
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 
 <script type="text/javascript">
   $(function() {
@@ -213,6 +255,23 @@
       }
     });
   });
+  var yourAudio = document.getElementById('yourAudio'),
+    ctrl = document.getElementById('audioControl');
+
+    ctrl.onclick = function () {
+
+
+      if(ctrl.className == "glyphicon glyphicon-play") {
+        ctrl.className="glyphicon glyphicon-pause";
+        yourAudio["play"]();
+      }
+      else if (ctrl.className == "glyphicon glyphicon-pause"){
+
+        ctrl.className="glyphicon glyphicon-play";
+        yourAudio["pause"]();
+
+      }
+    };
 </script>
 </body>
 
