@@ -55,8 +55,8 @@ ul.social-icons {
 .fa-instagram:hover {
   background-color: #b30086;
 }
-.fa-youtube {
-  padding:10px 10px 7px 11px;
+.fa-twitter {
+  padding:10px 9px 7px 11px;
   -o-transition:.5s;
   -ms-transition:.5s;
   -moz-transition:.5s;
@@ -64,8 +64,8 @@ ul.social-icons {
   transition: .5s;
   background: #fb0347;
 }
-.fa-youtube:hover {
-  background-color: #ff0000;
+.fa-twitter:hover {
+  background-color: #33ccff;
 }
 .pull-right {
   float: right;
@@ -416,3 +416,6 @@ img {
   font-weight: 900;
 }
 
+audio{
+    display:none;
+}
