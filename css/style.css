@@ -363,12 +363,10 @@ img {
   font-size: 30px;
 }
 }
-
 img {
   margin: 0 auto;
   display: block;
 }
-
 .contact-button {
   background-color: #fb0347;
   border: none;
@@ -382,23 +380,19 @@ img {
   cursor: pointer;
   z-index: 250;
 }
-
 .contact-button:hover {
   text-decoration: none;
   color:  #000000;
   -webkit-transition-duration: 0.8s; 
   transition-duration: 0.8s;
 }
-
 .contact-background-img {
   position: relative;
   left: 50;
 }
-
 .thumbnail {
   position: relative;
 }
-
 .contact-text {
   font-family: 'Open Sans', sans-serif;
   position: absolute;
@@ -409,13 +403,11 @@ img {
   height: 100%;
   text-align: center;
 }
-
 .contact-text-bold {
   font-style: none;
   font-size: 30px;
   font-weight: 900;
 }
-
 audio{
     display:none;
 }
