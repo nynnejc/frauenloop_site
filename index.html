@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html>
-
 <head>
   <meta charset="utf-8">
+  <meta name="description" content="FrauenLoop">
+  <meta name="keywords" content="FrauenLoop,berlin,rails">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
   <!-- Latest compiled and minified CSS -->
@@ -11,13 +12,9 @@
   <title>Frauen Loop</title>
    <link rel="icon" type="image/png" href="images/favicon.ico">
 </head>
-
 <body>
   <header>
-    <div class="container">
-    <div class="row">
-    <div class="clo-lg-12 col-sm-12">
-      <nav class="navbar navbar-inverse">
+      <nav id="mainNav" class="navbar navbar-inverse navbar-custom navbar-fixed-top">
         <div class="container-fluid">
           <div class="navbar-header">
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -45,7 +42,6 @@
       </div>
     </div>
   </header>
-
 <div class="container" id="home">
   <div class="carousel-wrapper">
     <div id="myCarousel" class="carousel slide" data-ride="carousel">
@@ -109,8 +105,6 @@
   <img src="images/content_images/WHY_IMAGE.jpg" class="img-responsive" width="650" height="532.06">
 </div>
 
-
-
 <div class="section" id="page2">
   <div class="container ">
     <div ><img class="header-circle" src="images/circle_logos/WHAT_CIRCLE.jpg"></div>
@@ -139,9 +133,8 @@
       </div>
     <img src="images/content_images/WHERE_IMAGE.jpg" class="img-responsive" width="540" height="532.06">
   </div>
-  <div><p class="quotepink text-center"><a class="quotepink" href="pages/location.html" target="_blank">FIND US </a ><span class="glyphicon glyphicon-map-marker"></span></p></div>
+  <div><p class="quotepink text-center"><a class="quotepink" href="pages/location.html">FIND US </a ><span class="glyphicon glyphicon-map-marker"></span></p></div>
 </div>
-
 
 <div class="section" id="page5">
   <div class="container">
@@ -163,42 +156,12 @@
     <div><p class="quotepink text-center"><a class="quotepink" href="pages/who.html">TEAM</a><span class="glyphicon glyphicon-play"></span></p></div>
 </div>
 
-<!--<div class="section" id="page6">
-  <div class="container">
-    <div><img class="header-circle" src="images/circle_logos/LISTEN_CIRCLE.jpg"></div>
-      <div class="row">
-      <div class="clo-lg-12 col-sm-12 text-center"><p class="quote">Some text Some text</p></div>
-        <div class="col-lg-12 col-md-12 text-center"><audio id="yourAudio" preload='none'>
-          <source src='audio/FrauenLoop_founder (1).m4a' type='audio/mpeg' />
-        </audio>
-        <a class="quotepink">LISTEN <span id="audioControl" class="glyphicon glyphicon-play"></span></a>
-        </div>
-      </div>
-  </div>
-        <div class="row">
-      <div class="clo-lg-12 col-sm-12 text-center"><p class="quote">Some text Some text</p></div>
-        <div class="col-lg-12 col-md-12 text-center"><audio id="yourAudio" preload='none'>
-          <source src='audio/music.mp3' type='audio/mpeg' />
-        </audio>
-        <a class="quotepink">LISTEN <span id="audioControl" class="glyphicon glyphicon-play"></span></a>
-        </div>
-      </div>
-  </div>
-        <div class="row">
-      <div class="clo-lg-12 col-sm-12 text-center"><p class="quote">Some text Some text</p></div>
-        <div class="col-lg-12 col-md-12 text-center"><audio id="yourAudio" preload='none'>
-          <source src='pages/music.mp3' type='audio/mpeg' />
-        </audio>
-        <a class="quotepink">LISTEN <span id="audioControl" class="glyphicon glyphicon-play"></span></a>
-        </div>
-      </div>
-  </div>-->
   <div class="section" id="page6">
   <div class="container">
     <div><img class="header-circle" src="images/circle_logos/LISTEN_CIRCLE.jpg"></div>
       <div class="row">
       <audio id="audio"></audio>
-      <div class="img-responsive"><img src="images/other_images/moDM6.png" width="350"></div>
+      <div class="img-responsive"><img src="images/other_images/audio_wave.jpg" width="300"></div>
       <div class="clo-lg-12 col-sm-12 text-center"><p class="quote">Technical Mentor, FrauenLoop</p></div>
         <div class="col-lg-12 col-md-12 text-center"><a class="quotepink" onclick="play('audio/frauenloop_haneen_1_final.mp3')">LISTEN<span class="glyphicon glyphicon-play" ></span></a><a class="quotepink" onclick="stopAudio()"><span class="glyphicon glyphicon-pause" style="padding-left:20px;" ></span></a>
         </audio>
@@ -208,7 +171,7 @@
   <br>
   <br>
         <div class="row">
-        <div class="img-responsive"><img src="images/other_images/moDM6.png" width="300"></div>
+        <div class="img-responsive"><img src="images/other_images/audio_wave_2.jpg" width="300"></div>
         <div class="clo-lg-12 col-sm-12 text-center"><p class="quote">Current Student, FrauenLoop</p></div>
       <div class="clo-lg-12 col-sm-12 text-center"><a class="quotepink" onclick="play('audio/FrauenLoop_kadija_final.mp3')">LISTEN<span class="glyphicon glyphicon-play" ></span></a><a class="quotepink" onclick="stopAudio()"><span class="glyphicon glyphicon-pause" style="padding-left:20px;" ></span></a>
         </audio>
@@ -217,8 +180,8 @@
   </div>
   <br>
   <br>
-          <div class="row">
-        <div class="img-responsive"><img src="images/other_images/moDM6.png" width="300"></div>
+    <div class="row">
+        <div class="img-responsive"><img src="images/other_images/audio_wave_3.jpg" width="300"></div>
         <div class="clo-lg-12 col-sm-12 text-center"><p class="quote">Founder, FrauenLoop</p></div>
       <div class="clo-lg-12 col-sm-12 text-center"><a class="quotepink" onclick="play('audio/FrauenLoop_founder.m4a')">LISTEN<span class="glyphicon glyphicon-play" ></span></a><a class="quotepink" onclick="stopAudio()"><span class="glyphicon glyphicon-pause" style="padding-left:20px;" ></span></a>
         </audio>
@@ -230,10 +193,8 @@
     <div class="row">
     <div class="col-lg-12 col-md-12 col-sm-12 center-block">
       <div class="contact-background-img text-center">
-          <img src="images/other_images/CONTACT_BG_IMAGE.jpg" alt="" class="img-responsive" width="850" height="532.06">
-        
-        <div class="contact-text">
-
+        <img src="images/other_images/CONTACT_BG_IMAGE.jpg" alt="" class="img-responsive" width="850" height="532.06">
+         <div class="contact-text">
           <div class="col-lg-12 col-md-12 col-sm-12 center-block">
                 <span class="contact-text-bold">Dr. Nakeema Stefflbauer</span><br>
               <br class="visible-lg visible-md">
@@ -294,7 +255,6 @@ by Nynne Just Christofferson & Wissam Ghozlan<br>
 
 <footer>
 <div class="footer-social-icons">
-    
     <ul class="social-icons">
       <li><a href="" class="social-icon"> <i class="fa fa-facebook"></i></a></li>
       <li><a href="" class="social-icon"> <i class="fa fa-instagram"></i></a></li>
@@ -304,8 +264,8 @@ by Nynne Just Christofferson & Wissam Ghozlan<br>
 </footer>
 
 <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-2.2.4.min.js"></script>
-<script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-2.2.4.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.touchswipe/1.6.18/jquery.touchSwipe.js"></script>
 <script type="text/javascript" src="js/script.js">
 </script>
 </body>
