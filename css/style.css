@@ -191,6 +191,12 @@ ul.social-icons {
   font-style: none;
   font-size: 18px;
 }
+.quoteWhite2 {
+  color:#bfbfbf;
+  font-style: none;
+  font-size: 16px;
+  padding-bottom: 2px;
+}
 .quotepink {
   font-family: 'Open Sans', sans-serif;
   color:#fb0347;
@@ -215,7 +221,10 @@ ul.social-icons {
   padding-top: 140px;
 }
 .section {
- padding-top: 130px;
+ padding-top: 140px;
+}
+.sectionhow {
+    padding-top: 125px;
 }
 .sectionTeam {
   padding-top: 130px;
@@ -408,6 +417,12 @@ body .contact-text .contact-text-bold2 {
     left: 20%;
     padding-bottom: 10px;
 } 
+.quoteWhite2 {
+  color:#bfbfbf;
+  font-style: none;
+  font-size: 15px;
+  padding-bottom: 3px;
+}
 }
 img {
   padding-top: 10px;
