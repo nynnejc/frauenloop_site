@@ -30,12 +30,6 @@ ul.social-icons {
   color: #fff; 
   text-decoration: none;
 }
-
-/*.footer-social-icons2 {width: 350px;display:block;margin: -104px auto;position: relative;right: 10px;z-index: 100;}
-.social-icon2 {color: #fff;}ul.social-icons2 { position: absolute;bottom: 147.6PX;right: 136.8%;font-size: 17px;}.social-icons2 li { vertical-align: top;list-style: none;}.social-icons2 a {color: #fff; text-decoration: none;}
-.footer-social-icons3 {width: 350px;display:block;margin: -104px auto;position: relative;right: 10px;z-index: 100;}
-.social-icon3 {color: #fff;}ul.social-icons3 { position: absolute;bottom: 137PX;right: 137%;font-size: 17px;}.social-icons3 li { vertical-align: top;list-style: none;}.social-icons3 a {color: #fff; text-decoration: none;}
-*/
 .fa-facebook {
   padding:10px 14px 6px 14.3px;
   -o-transition:.5s;
